@@ -86,6 +86,8 @@ module Merit
       else
         :action_controller_base
       end
+      # HACK
+      :action_controller_api
     end
   end
 end
